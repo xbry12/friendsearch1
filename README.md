@@ -13,7 +13,7 @@ This project was created as a mock Social Media App. The CRUD functionality of t
 
 ### Deployment
 
-FriendSearch is deployed * [HERE](https://objective-curie-058e96.netlify.app/)
+FriendSearch is deployed [HERE](https://objective-curie-058e96.netlify.app/)
 
 ### Author
 
