@@ -1,0 +1,65 @@
+body {
+  /* margin: 20px; */
+  width: 100%;
+  margin-left: 0;
+  height: 150vh;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "footer footer footer";
+
+  /* grid-template-columns: 200px 200px 200px; */
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+}
+.sidebar {
+  grid-area: sidebar;
+  height: 100vh;
+  background-color: blue;
+  margin-top: 82%;
+  margin-left: 50px;
+  width: 70%;
+  position: inherit;
+
+  /* z-index: 1; */
+  /* position: relative; */
+}
+.content {
+  grid-area: content;
+  position: relative;
+  max-height: 200vh;
+  margin-top: 225px;
+}
+.header {
+  grid-area: header;
+  width: 100vw;
+  top: 0;
+  position: fixed;
+  background-color: #221f20;
+  z-index: 1;
+  overflow: none;
+}
+
+.footer {
+  grid-area: footer;
+  width: 100vw;
+  /* background-color: red; */
+}
+
+.box {
+  padding: 50px;
+}
+/* For grid row:
+
+You will make the nav small
+
+feed will take up screen (50%?)
+
+auto will grow and shrink
+Footer will be at bottom 
+Footer will have 2?
+
+*/
