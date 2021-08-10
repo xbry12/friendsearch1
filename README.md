@@ -1,5 +1,3 @@
-# friendsearch1
-
 # Welcome to FriendSearch your #1 Social Media Application!
 
 ### About the Project
@@ -14,7 +12,8 @@ This project was created as a mock Social Media App. The CRUD functionality of t
 
 
 ### Deployment
-N/A
+
+FriendSearch is * deployed * [HERE](https://objective-curie-058e96.netlify.app/)
 
 ### Author
 
